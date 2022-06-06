@@ -1,0 +1,157 @@
+body {background-color: #152238;
+font-family: "Roboto", Roboto, sans-serif;
+background-image: url("Assets/spacebg.jpg");
+ }
+
+h1{color: #FE3DB1;
+ font-size: 72px;}
+
+
+h2{color: rgb(254, 231, 255);
+ font-size: 32px;
+ }
+
+.textdiv {
+  position: fixed;
+  left: 10%;
+  top:25%;
+}
+.back {
+  position: absolute;
+  left:5%;
+  top: 5%;
+}
+
+
+.back img{
+  width: 10%;
+}
+
+#myBtn {
+  width: 110%;
+  font-size: 18px;
+  padding: 10px;
+  border-color: #FE3DB1;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+
+#myBtn:hover {
+  border-color: #FE3DB1;
+  background: #FE3DB1;
+  border-radius: 15px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+
+}
+
+
+.buttonpos1 {
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+  padding-bottom: 10px;
+ 
+}
+
+
+.headphonepos {
+ position: absolute;
+   bottom: 10%;
+  left: 40%;
+  padding-bottom: 10px;
+  width: 20%;
+   color: #fff;
+   text-align: center;
+}
+
+
+img {
+  width:12%;
+}
+
+.topnav a.icon :hover{
+color: white;
+}
+
+h3 {
+  left: 12%;
+  position: absolute;
+  padding-bottom: 2%;
+}
+
+.topnav #myLinks {
+  display: none;  
+  background-color: white;
+  width: 40%;
+  right: 0px;
+  position: absolute;
+  height: 100.3%;
+  top: -0.3%
+}
+
+
+.topnav a.icon {
+  color: #FE3DB1;
+  color-adjust: #FE3DB1;
+  right: 2%;
+  top: 3.4%;
+  display: block;
+  position: absolute;
+  font-size: 30px;
+}
+.a h2 {
+position: absolute;
+padding: 15%;
+
+}
+.topnav h2:hover {
+  color: #FE3DB1;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+   text-decoration: none;
+}
+
+.topnav h2 {
+ 
+  font-size: 36px;
+  display: inline-block;
+  text-align: left;
+  position: sticky;
+  padding-top: 5%;
+    padding-bottom: 12%;
+
+}
+.topnav p {
+ font-size: 26px;
+ display: inline-block;
+  text-align: left;
+  position: sticky;
+  padding-top: 5%;
+    padding-bottom: 12%;
+     padding-left: 3%;
+
+}
+
+h3 {
+  text-decoration-color: #FE3DB1;
+  text-decoration-line: underline;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}

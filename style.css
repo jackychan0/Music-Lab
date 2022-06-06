@@ -1,0 +1,372 @@
+body {
+font-family: "Roboto", Roboto, sans-serif;
+background-image: url("Assets/spacebg.jpg");
+
+}
+h1{color: #FE3DB1;}
+
+h2{color: plum;}
+.back {
+  position: absolute;
+  left:5%;
+  top: 5%;
+}
+
+
+.back img{
+  width: 10%;
+}
+
+
+#vision {
+  padding-top: 10%;
+  padding-left: 15%;
+  padding-right:15%;
+  text-align: center;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border-color: #FE3DB1;
+  background: rgba(0, 0, 0, 0.09);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.textdiv {
+  position: fixed;
+
+  left: 40%;
+  top: 5%;
+  
+}
+.header1 {
+  position: fixed;
+  top: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+
+}
+
+#myBtn:hover {
+  background: #FE3DB1;
+  border-radius: 15px;
+}
+
+.header {
+  position: fixed;
+  top: 5%;
+  color: #f1f1f1;
+  width: 10%;
+  left: 48%;
+
+
+
+}
+
+.header img {
+  padding-right:5%;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+
+.buttonpos {
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+  padding-bottom: 50px;
+ 
+}
+
+img {
+  width:12%;
+}
+
+#vision img {
+  width: 50%;
+}
+
+
+.topnav #myLinks {
+  display: none;  
+  background-color: white;
+  width: 40%;
+  right: 0px;
+  position: absolute;
+  height: 100.3%;
+  top: -0.3%
+}
+
+
+.topnav a.icon {
+  color: #FE3DB1;
+  color-adjust: #FE3DB1;
+  right: 2%;
+  top: 3.4%;
+  display: block;
+  position: absolute;
+  font-size: 30px;
+}
+
+.topnav a.icon :hover{
+color: white;
+}
+.a h2 {
+position: absolute;
+padding: 15%;
+
+}
+.topnav h2:hover {
+  color: #FE3DB1;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+   text-decoration: none;
+}
+
+.topnav h2 {
+ 
+  font-size: 36px;
+  display: inline-block;
+  text-align: left;
+  position: sticky;
+  padding-top: 5%;
+  padding-bottom: 12%;
+
+
+}
+.topnav p {
+ font-size: 26px;
+ display: inline-block;
+  text-align: left;
+  position: sticky;
+  padding-top: 5%;
+  padding-bottom: 12%;
+   padding-left: 3%;
+
+}
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+h3 {
+  left: 12%;
+  position: absolute;
+  padding-bottom: 2%;
+}
+h3 {
+  text-decoration-color: #FE3DB1;
+  text-decoration-line: underline;
+}
+
+.questionpos {
+  right: 0%;
+  top: 5%;
+  position: absolute;
+  font-size: 30px;
+  width:10%;
+}
+
+.locationpos {
+  left: 2%;
+  bottom: 5%;
+  position: absolute;
+  width: 10%;
+}
+
+.locationpos p {
+  display: inline;
+  color: white;
+  padding-left: 10px;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 38px 10px;
+  position: absolute;
+  margin-left: -80px;
+
+}
+
+.popup .popuptext .a {
+  text-decoration: none;
+}
+
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.container1 {
+  padding-left: 5%;
+  padding-top: 15%;
+}
+.container {
+  padding: 5%;
+}
+
+  input[type=text], input[type=password] {
+  width: 25%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  color: white;
+
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+b {
+  color: plum;
+}
+
+
+button {
+  background-color: #FE3DB1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 35%;
+  opacity: 0.9;
+}
+
+button1 {
+  background-color: white;
+  color: #FE3DB1;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 35%;
+  opacity: 0.9;
+}
+
+
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the
+cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #1c111d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
